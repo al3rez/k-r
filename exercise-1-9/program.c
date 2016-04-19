@@ -10,9 +10,7 @@ main()
  
     while ((c = getchar()) != EOF)
     {
-        if (c == ' ' && acc == ' ')
-            ;
-        else
+        if (c != ' ' || acc != ' ')
             putchar(c);
  
         acc = c;
