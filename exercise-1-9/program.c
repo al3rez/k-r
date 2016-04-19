@@ -11,7 +11,7 @@ main()
     while ((c = getchar()) != EOF)
     {
         if (c == ' ' && acc == ' ')
-            acc == c;
+            ;
         else
             putchar(c);
  
