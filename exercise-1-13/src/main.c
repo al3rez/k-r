@@ -7,8 +7,8 @@ int main()
     int words[9] = {0};
     int freqs[9] = {0};
 
-    _count = wrnls(words, sizeof words / sizeof words[0]);
-    wcfqs(words, freqs, _count);
+    _count = w_rnls(words, sizeof words / sizeof words[0]);
+    w_cfls(words, freqs, _count);
 
     for (i = 0; i < _count; i++)
         printf("%d %d\n", i + 1, freqs[i]);

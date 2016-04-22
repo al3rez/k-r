@@ -4,10 +4,10 @@
  * stores them into the buffer pointed to by s.
  */
 
-int wrnls(int *s, int size);
+int w_rnls(int *s, int size);
 
 /* counts the frequencies of the lengths of the words and
  * stores them into the buffer pointed to by fqs.
  */
 
-void wcfqs(int *s, int *fqs, int size);
+void w_cfls(int *s, int *fqs, int size);

@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int wrnls(int *s, int size)
+int w_rnls(int *s, int size)
 {
     int c,i;
     int len;
@@ -20,7 +20,7 @@ int wrnls(int *s, int size)
     return i;
 }
 
-void wcfqs(int *s, int *fqs, int size)
+void w_cfls(int *s, int *fqs, int size)
 {
     int i;
 
